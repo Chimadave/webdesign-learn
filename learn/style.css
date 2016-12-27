@@ -1,0 +1,51 @@
+h1, em, .introduction
+{
+	color: blue;
+}
+
+.chei
+{
+	color: red;
+}
+h1
+{
+	font-size: large;
+}
+
+p
+{
+	font-size: 0.8em;
+}
+
+@font-face {
+    font-family: 'learning_curve_proregular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+}
+
+h1
+{
+	font-family: 'learning_curve_proregular', Arial, serif;
+}
+em
+{
+	font-style: normal;
+	font-weight: bold;
+}
+strong
+{
+	font-weight: normal;
+	font-style: italic;
+}
+h1 + p + p
+{
+	text-align: justify;
+	color: red;
+}
+.hastofloat
+{
+	float: left;
+}
