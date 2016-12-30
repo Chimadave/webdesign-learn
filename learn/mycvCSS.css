@@ -1,0 +1,74 @@
+h1, h1 + p
+{
+	text-align: center;
+}
+h1 + p
+{
+	font-family: 'learning_curve_proregular', Arial, serif;
+	color: blue;
+	font-weight: bold;
+	font-size: large;
+}
+h1 + p:hover
+{
+	text-decoration: underline;
+}
+h1 + p + p
+{
+	text-align: right;
+	font-family: Arial, serif;
+}
+
+@font-face {
+    font-family: 'learning_curve_proregular';
+    src: url(web_fonts/LearningCurve_OT-webfont.eot);
+    src: url(web_fonts/LearningCurve_OT-webfont.eot?#iefix) format('embedded-opentype'),
+         url(web_fonts/LearningCurve_OT-webfont.woff) format('woff'),
+         url(web_fonts/LearningCurve_OT-webfont.ttf) format('truetype'),
+         url(web_fonts/LearningCurve_OT-webfont.svg#learning_curve_proregular) format('svg');
+}
+body
+{
+	background-image: url(img/tn_cv_pic.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.picpic
+{
+	float: right;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 20px;
+}
+
+h2 
+{
+	color: maroon;
+}
+span
+{
+	font-weight: bold;
+}
+em
+{
+	font-style: normal;
+	text-shadow: 2px 2px 2px black;
+}
+
+a
+{
+	text-decoration: none;
+	color: green;
+}
+a:hover
+{
+text-decoration: underline;
+color: blue;
+}
+a:visited
+{
+text-decoration: underline;
+color: red;
+}
