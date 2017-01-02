@@ -35,11 +35,20 @@ body
 	width: 90%;
 	margin: auto;
 }
-section h1, footer h1, nav a 
+ footer h1, nav a 
 {
 	font-family: 'Dayrom', serif;
 	font-weight: normal;
 	text-transform: uppercase;
+}
+section h2
+{
+	font-family: 'Dayrom', serif;
+	font-weight: normal;
+}
+section h2 em
+{
+	color: red;
 }
 /* The header */
 header
@@ -133,13 +142,13 @@ nav a:hover
 	position: absolute;
 	right: 5px;
 	bottom: 5px;
-	background: url('images/yellow_background.png') repeat-x;
+	background: url('images/vertical_sep.png') repeat-x;
 	border: 1px solid #760001;
 	border-radius: 5px;
 	font-size: 1.2em;
 	text-align: center;
 	padding:  3px 8px 0px 8px;
-	color: green; 
+	color: white; 
 	text-decoration: none;
 }
 .red_button img
@@ -208,4 +217,66 @@ aside p strong
 {
 	color: #ffff88;
 	text-align: right;
+}
+
+/* The Footer */
+footer
+{
+	background: url('images/ico_top.png') no-repeat top center, url('images/separator.png') 
+	repeat-x top, url(images/shadow.png) repeat-x top;
+}
+footer p, footer ul
+{
+	font-size: 0.8em;
+}
+
+footer h1
+{
+	font-size: 1.1em;
+}
+
+#platforms, #pictures, #partners, #investors
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#platforms
+{
+	width: 23%
+}
+
+#pictures
+{
+	width: 33%;
+}
+#partners
+{
+	width: 20%;
+}
+
+#investors
+{
+	width: 22%
+}
+#pictures img
+{
+	border:1px solid #181818;
+	margin-right: 2px;
+}
+
+#partners ul, #investors ul
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	width: 48%;
+	list-style-image: url('images/external_link.png');
+	padding-left: 2px;
+}
+
+#partners a, #investors a
+{
+	text-decoration: none;
+	color: #760001;
 }
