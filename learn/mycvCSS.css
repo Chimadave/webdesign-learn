@@ -27,20 +27,38 @@ h1 + p + p
          url(web_fonts/LearningCurve_OT-webfont.ttf) format('truetype'),
          url(web_fonts/LearningCurve_OT-webfont.svg#learning_curve_proregular) format('svg');
 }
+
+@font-face 
+{
+    font-family: 'Dayrom';
+    src: url(web_fonts/dayrom.eot);
+    src: url(web_fonts/dayrom.eot?#iefix) format('embedded-opentype'),
+         url(web_fonts/dayrom.woff) format('woff'),
+         url(web_fonts/dayrom.ttf) format('truetype'),
+         url(web_fonts/dayrom.svg#Dayrom) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header
+{
+	background: url('img/photo.jpg') no-repeat right;
+	
+}
+
+#main_wrapper
+{
+	width: 85%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
 body
 {
-	background-image: url(img/tn_cv_pic.jpg);
-	background-repeat: no-repeat;
-	background-position: top left;
-}
-.picpic
-{
-	float: right;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	border-radius: 20px;
+	background-image: url('img/light_background.png');
+	font-family: 'Trebuchet MS' , Arial, sans-serif;
+	color: #181818;
 }
 
 h2 
@@ -62,13 +80,45 @@ a
 	text-decoration: none;
 	color: green;
 }
+
 a:hover
 {
 text-decoration: underline;
 color: blue;
 }
+
 a:visited
 {
 text-decoration: underline;
 color: red;
+} 
+
+#experience, #education 
+{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+
+}
+
+#skills 
+{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+
+}
+
+#block
+{
+	display: inline-block;
+	width: 7%;
+	vertical-align: top;
+	min-height: 500px;
+	height: 100%;
+	background-color: #000000;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 0.9em
 }

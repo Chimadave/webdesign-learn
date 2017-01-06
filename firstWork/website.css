@@ -32,9 +32,10 @@ body
 }
 #main_wrapper
 {
-	width: 90%;
+	width: 1200;
 	margin: auto;
 }
+
  footer h1, nav a 
 {
 	font-family: 'Dayrom', serif;
@@ -280,3 +281,68 @@ footer h1
 	text-decoration: none;
 	color: #760001;
 }
+
+/* Managing screen resolutions*/
+@media all and (max-width: 1024px)
+{
+	#main_wrapper
+	{
+		width: auto;
+	}
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+
+	nav li
+	{
+		display: block;
+		padding-left: 4px;
+	}
+
+	nav a
+	{
+		font-size: 1.1em;
+	}
+
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+
+	#banner_image
+	{
+		display: none;
+	}
+
+	article, aside
+	{
+		width: auto;
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	#arrow
+	{
+		display: none;
+	}
+
+	#ufarm_pic img
+	{
+		width: 110px;
+		float: right;
+		margin-left: 15px;
+	}
+
+	aside p:last-child
+	{
+		text-align: center;
+	}
+}
+
+@media all and (max-device-width: 480px)
+{
+	
+}
+
